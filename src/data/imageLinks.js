@@ -2,6 +2,7 @@
 import cameraRentVideo from "../images/camera-rent/4.mp4";
 import kimsHospitalVideo1 from "../images/commercial-kims-hospital/2.mp4";
 import portraitVideo from "../images/portrait/3.mp4";
+import droneVideo from "../images/drone-skyline/5.mp4";
 
 const imageUrls = {
   about: [
@@ -22,6 +23,7 @@ const imageUrls = {
     "https://lh3.googleusercontent.com/d/1RkA_f7fQtlNjJeqVKzBBcvx95EGaiVX7",
     "https://lh3.googleusercontent.com/d/1ykYTrZ4Ro9zilMpINjtfrzp5W3KvmEa3",
     "https://lh3.googleusercontent.com/d/1legqW3a2gXCBB_lZdxrXmZHovADBSIJQ",
+    droneVideo,
   ],
   music: [
     "https://lh3.googleusercontent.com/d/1rULolCQAVClD19iEsA-uU7-W0IntxTLf",
