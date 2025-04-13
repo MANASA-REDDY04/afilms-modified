@@ -45,8 +45,8 @@ const albums = [
       { type: "image", filename: imagesUrls.drone[0] },
       { type: "image", filename: imagesUrls.drone[1] },
       { type: "image", filename: imagesUrls.drone[2] },
-      { type: "image", filename: imagesUrls.drone[4] },
-      { type: "video", filename: imagesUrls.drone[5] },
+      { type: "image", filename: imagesUrls.drone[3] },
+      { type: "video", filename: imagesUrls.drone[4] },
     ],
   },
   {
