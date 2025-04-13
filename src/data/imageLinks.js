@@ -3,6 +3,8 @@ import cameraRentVideo from "../images/camera-rent/4.mp4";
 import kimsHospitalVideo1 from "../images/commercial-kims-hospital/2.mp4";
 import portraitVideo from "../images/portrait/3.mp4";
 import droneVideo from "../images/drone-skyline/5.mp4";
+import podcastVideo1 from "../images/podcasts/1.mp4";
+import podcastVideo2 from "../images/podcasts/2.mp4";
 
 const imageUrls = {
   about: [
@@ -34,9 +36,10 @@ const imageUrls = {
     "https://lh3.googleusercontent.com/d/1Bw5FTY5EHQLv9DV6BK_JdspzG-IiavsB",
   ],
   podcasts: [
-    "https://lh3.googleusercontent.com/d/13Py3zrf4FXP3J8Y6V6flYTnZPDhbbUVN",
-    "https://lh3.googleusercontent.com/d/11HlkMBQxQR1l99N2kDZE3kar4ElvmIN4",
-    "https://lh3.googleusercontent.com/d/1JFJaNDY2OXvfhOsWGvyCMZXhGXOc7JmI",
+    "https://lh3.googleusercontent.com/d/131JRdJwPl2T5oSjIBvFu3VW-suc_Cnx7",
+    "https://lh3.googleusercontent.com/d/1Q9lO3AiuaabZJ349Be80IM0Ehir4NC1u",
+    podcastVideo1,
+    podcastVideo2,
   ],
   portrait: [
     "https://lh3.googleusercontent.com/d/17TJFioVl3qFJLWDj1Ps_mD2slJevn8vG",

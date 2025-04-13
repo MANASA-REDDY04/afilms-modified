@@ -75,7 +75,8 @@ const albums = [
     media: [
       { type: "image", filename: imagesUrls.podcasts[0] },
       { type: "image", filename: imagesUrls.podcasts[1] },
-      { type: "image", filename: imagesUrls.podcasts[2] },
+      { type: "video", filename: imagesUrls.podcasts[2] },
+      { type: "video", filename: imagesUrls.podcasts[3] },
     ],
   },
   {
