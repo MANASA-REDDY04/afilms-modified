@@ -1,0 +1,308 @@
+/* Home.css */
+
+.home {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  display: flex;
+  height: 100vh;
+  background-color: #000;
+}
+
+.hero-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image-box {
+  width: 70%;
+  max-width: 600px;
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+}
+
+.hero-image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+}
+
+.hero-image-box {
+  background-size: cover;
+  background-position: center 30%;
+}
+
+.hero-content {
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero-content h1 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #fff;
+}
+
+.hero-content h2 {
+  font-size: 4rem;
+  margin: 0.5rem 0;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.book-now {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #fff;
+  border-radius: 0;
+  font-size: 1.2rem;
+  transition: background-color 0.3s;
+}
+
+.book-now:hover {
+  background-color: #333;
+}
+
+.featured-work,
+.testimonials,
+.cta-section {
+  padding: 4rem 2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.featured-item {
+  text-align: center;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.image-container:hover .image-overlay {
+  opacity: 1;
+}
+
+.view-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+.view-button:hover {
+  background-color: #ddd;
+}
+
+/* === Testimonial Swipe Section === */
+.testimonial-swipe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: nowrap;
+}
+
+.testimonial {
+  background: #1a1a1a;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.testimonial p {
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.testimonial h4 {
+  margin-top: 1rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+.testimonial-swipe button {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 1.5rem;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.testimonial-swipe button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* === Add Review Form === */
+.add-review-form {
+  margin-top: 2rem;
+  background: #1a1a1a;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.add-review-form h3 {
+  color: #fff;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.add-review-form textarea,
+.add-review-form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: none;
+  background: #2a2a2a;
+  color: #fff;
+  font-size: 1rem;
+  resize: none;
+}
+
+.add-review-form textarea::placeholder,
+.add-review-form input::placeholder {
+  color: #aaa;
+}
+
+.add-review-form button {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.add-review-form button:hover {
+  background: #ddd;
+}
+
+.cta-section {
+  background: #111;
+  text-align: center;
+}
+
+.cta-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cta-section p {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .hero-content h2 {
+    font-size: 2.5rem;
+  }
+
+  .testimonial-swipe {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .testimonial-swipe button {
+    font-size: 1.2rem;
+    width: 40px;
+    height: 40px;
+  }
+
+  .testimonial {
+    font-size: 1rem;
+    padding: 1.5rem;
+  }
+
+  .add-review-form {
+    padding: 1.5rem;
+  }
+
+  .book-now {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+  }
+}
